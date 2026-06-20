@@ -1,8 +1,6 @@
-let idade = 27;
+let idade = 20;
 let ingresso = true;
 
-if (idade >= 18 && ingresso === true) {
-    console.log("Entrada permitida");
-} else {
-    console.log("Entrada negada");
-}
+let entradaPermitida = idade >= 18 && ingresso;
+
+console.log("Entrada permitida:", entradaPermitida);
